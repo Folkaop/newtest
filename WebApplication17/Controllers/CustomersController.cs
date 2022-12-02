@@ -69,7 +69,7 @@ namespace WebApplication17.Controllers
 
             return StatusCode(HttpStatusCode.NoContent);
         }
-
+        //add new functional
         // POST: api/Customers
         [ResponseType(typeof(Customer))]
         public IHttpActionResult PostCustomer(Customer customer)
